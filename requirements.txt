@@ -1,14 +1,17 @@
 langchain==0.3.25
 langchain-community==0.3.25
 langchain-core==0.3.65
-langsmith==0.3.45
 
+# OpenAI
+openai==1.86.0
+langchain-openai==0.3.22
 # Gemini
 google-generativeai==0.8.5
 langchain-google-genai==2.0.10
-
 # Hugging Face
+transformers==4.52.4
 huggingface-hub==0.32.6
 langchain-huggingface==0.3.0
 
 streamlit==1.45.1
+python-dotenv
