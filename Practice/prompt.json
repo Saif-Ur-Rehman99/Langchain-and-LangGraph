@@ -1,0 +1,17 @@
+{
+    "name": null,
+    "input_variables": [
+        "question",
+        "relation",
+        "tone"
+    ],
+    "optional_variables": [],
+    "output_parser": null,
+    "partial_variables": {},
+    "metadata": null,
+    "tags": null,
+    "template": "You're my {relation} and you always talk in {tone} tone.\n    Rules:\n    - You can only talk in English\n    - You must answer your domain specific questions - don't answer questions outside your domain (just say \"I don't know I am a {relation}\").\n    - Don't print the text in response that comes inside <think> tags.\n    Answer the question: {question}",
+    "template_format": "f-string",
+    "validate_template": false,
+    "_type": "prompt"
+}
