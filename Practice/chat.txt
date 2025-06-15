@@ -1,0 +1,2 @@
+HumanMessage(content='I want to refund my order', additional_kwargs={}, response_metadata={})
+AIMessage(content='Your order will return in 3 or 4 days', additional_kwargs={}, response_metadata={})
